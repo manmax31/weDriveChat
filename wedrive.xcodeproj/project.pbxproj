@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB364581B595FBA0014CA9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB364571B595FBA0014CA9B /* AppDelegate.swift */; };
+		DFB3645A1B595FBA0014CA9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB364591B595FBA0014CA9B /* ViewController.swift */; };
+		DFB3645D1B595FBA0014CA9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB3645B1B595FBA0014CA9B /* Main.storyboard */; };
+		DFB3645F1B595FBA0014CA9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB3645E1B595FBA0014CA9B /* Images.xcassets */; };
+		DFB364621B595FBA0014CA9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB364601B595FBA0014CA9B /* LaunchScreen.xib */; };
+		DFB3646E1B595FBB0014CA9B /* wedriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB3646D1B595FBB0014CA9B /* wedriveTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB364681B595FBB0014CA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB3644A1B595FBA0014CA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB364511B595FBA0014CA9B;
+			remoteInfo = wedrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB364521B595FBA0014CA9B /* wedrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wedrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB364561B595FBA0014CA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB364571B595FBA0014CA9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB364591B595FBA0014CA9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFB3645C1B595FBA0014CA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB3645E1B595FBA0014CA9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFB364611B595FBA0014CA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFB364671B595FBB0014CA9B /* wedriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wedriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB3646C1B595FBB0014CA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB3646D1B595FBB0014CA9B /* wedriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wedriveTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB3644F1B595FBA0014CA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB364641B595FBB0014CA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB364491B595FBA0014CA9B = {
+			isa = PBXGroup;
+			children = (
+				DFB364541B595FBA0014CA9B /* wedrive */,
+				DFB3646A1B595FBB0014CA9B /* wedriveTests */,
+				DFB364531B595FBA0014CA9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB364531B595FBA0014CA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB364521B595FBA0014CA9B /* wedrive.app */,
+				DFB364671B595FBB0014CA9B /* wedriveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB364541B595FBA0014CA9B /* wedrive */ = {
+			isa = PBXGroup;
+			children = (
+				DFB364571B595FBA0014CA9B /* AppDelegate.swift */,
+				DFB364591B595FBA0014CA9B /* ViewController.swift */,
+				DFB3645B1B595FBA0014CA9B /* Main.storyboard */,
+				DFB3645E1B595FBA0014CA9B /* Images.xcassets */,
+				DFB364601B595FBA0014CA9B /* LaunchScreen.xib */,
+				DFB364551B595FBA0014CA9B /* Supporting Files */,
+			);
+			path = wedrive;
+			sourceTree = "<group>";
+		};
+		DFB364551B595FBA0014CA9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB364561B595FBA0014CA9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFB3646A1B595FBB0014CA9B /* wedriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3646D1B595FBB0014CA9B /* wedriveTests.swift */,
+				DFB3646B1B595FBB0014CA9B /* Supporting Files */,
+			);
+			path = wedriveTests;
+			sourceTree = "<group>";
+		};
+		DFB3646B1B595FBB0014CA9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3646C1B595FBB0014CA9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB364511B595FBA0014CA9B /* wedrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB364711B595FBB0014CA9B /* Build configuration list for PBXNativeTarget "wedrive" */;
+			buildPhases = (
+				DFB3644E1B595FBA0014CA9B /* Sources */,
+				DFB3644F1B595FBA0014CA9B /* Frameworks */,
+				DFB364501B595FBA0014CA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wedrive;
+			productName = wedrive;
+			productReference = DFB364521B595FBA0014CA9B /* wedrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB364661B595FBB0014CA9B /* wedriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB364741B595FBB0014CA9B /* Build configuration list for PBXNativeTarget "wedriveTests" */;
+			buildPhases = (
+				DFB364631B595FBB0014CA9B /* Sources */,
+				DFB364641B595FBB0014CA9B /* Frameworks */,
+				DFB364651B595FBB0014CA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB364691B595FBB0014CA9B /* PBXTargetDependency */,
+			);
+			name = wedriveTests;
+			productName = wedriveTests;
+			productReference = DFB364671B595FBB0014CA9B /* wedriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB3644A1B595FBA0014CA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Manab Chetia";
+				TargetAttributes = {
+					DFB364511B595FBA0014CA9B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DFB364661B595FBB0014CA9B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DFB364511B595FBA0014CA9B;
+					};
+				};
+			};
+			buildConfigurationList = DFB3644D1B595FBA0014CA9B /* Build configuration list for PBXProject "wedrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB364491B595FBA0014CA9B;
+			productRefGroup = DFB364531B595FBA0014CA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB364511B595FBA0014CA9B /* wedrive */,
+				DFB364661B595FBB0014CA9B /* wedriveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB364501B595FBA0014CA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB3645D1B595FBA0014CA9B /* Main.storyboard in Resources */,
+				DFB364621B595FBA0014CA9B /* LaunchScreen.xib in Resources */,
+				DFB3645F1B595FBA0014CA9B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB364651B595FBB0014CA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB3644E1B595FBA0014CA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB3645A1B595FBA0014CA9B /* ViewController.swift in Sources */,
+				DFB364581B595FBA0014CA9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB364631B595FBB0014CA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB3646E1B595FBB0014CA9B /* wedriveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB364691B595FBB0014CA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB364511B595FBA0014CA9B /* wedrive */;
+			targetProxy = DFB364681B595FBB0014CA9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB3645B1B595FBA0014CA9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB3645C1B595FBA0014CA9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB364601B595FBA0014CA9B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB364611B595FBA0014CA9B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB3646F1B595FBB0014CA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB364701B595FBB0014CA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB364721B595FBB0014CA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wedrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFB364731B595FBB0014CA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wedrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFB364751B595FBB0014CA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wedriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wedrive.app/wedrive";
+			};
+			name = Debug;
+		};
+		DFB364761B595FBB0014CA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wedriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wedrive.app/wedrive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB3644D1B595FBA0014CA9B /* Build configuration list for PBXProject "wedrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB3646F1B595FBB0014CA9B /* Debug */,
+				DFB364701B595FBB0014CA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB364711B595FBB0014CA9B /* Build configuration list for PBXNativeTarget "wedrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB364721B595FBB0014CA9B /* Debug */,
+				DFB364731B595FBB0014CA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFB364741B595FBB0014CA9B /* Build configuration list for PBXNativeTarget "wedriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB364751B595FBB0014CA9B /* Debug */,
+				DFB364761B595FBB0014CA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB3644A1B595FBA0014CA9B /* Project object */;
+}
